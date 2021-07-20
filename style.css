@@ -185,6 +185,19 @@ input[type="number"] {
   color: #5e7a7d;
 }
 
+.people {
+  position: relative;
+}
+
+.people p {
+  font-size: 14px;
+  color: red;
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+}
+
 .num-people {
   background-image: url(./images/icon-person.svg);
   background-repeat: no-repeat;

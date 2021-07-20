@@ -141,6 +141,17 @@ input {
   }
 }
 
+.people {
+  position: relative;
+  p {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    right: 0;
+    transform: translateY(-25px);
+  }
+}
+
 .num-people {
   background-image: url(./images/icon-person.svg);
   background-repeat: no-repeat;
