@@ -268,10 +268,6 @@ input[type="number"] {
   font-weight: bold;
 }
 
-.money .money__amount span {
-  font-size: 28px;
-}
-
 .money .reset {
   width: 100%;
   padding: 0.5rem;
@@ -352,7 +348,7 @@ input[type="number"] {
     margin-top: 5rem;
   }
   .money .money__amount {
-    font-size: 48px;
+    font-size: 40px;
   }
   .people {
     padding-top: 1rem;
