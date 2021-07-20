@@ -70,7 +70,7 @@ function calculate() {
     let totalAmount = (billVal * (tipVal + 1)) / customers;
     totalVal[0].innerHTML = "$" + tip.toFixed(2);
     totalVal[1].innerHTML = "$" + totalAmount.toFixed(2);
-    console.log(tip, totalAmount);
+    console.log("Tip:", tip, " | Amount", totalAmount);
   }
 }
 
